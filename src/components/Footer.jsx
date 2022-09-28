@@ -33,25 +33,28 @@ const Footer = () => {
               <li>
                 <a href="tel:#" className="footer-icon-box">
                   <i className="p-icon-phone-solid" />
-                  <span>+456 789 000</span>
+                  <span>+234 906 0000 000</span>
                 </a>
               </li>
               <li>
                 <a href="#" className>
                   <i className="p-icon-map" />
-                  <span>25 West 21th Street, Miami FL, USA</span>
+                  <span>
+                    38 Lingu Crescent, off Aminu Kano Crescent, Wuse II, Abuja
+                    FCT
+                  </span>
                 </a>
               </li>
               <li>
                 <a href="mailto:mail@panda.com" className>
                   <i className="p-icon-message" />
-                  <span>info@panda.com</span>
+                  <span>info@tef.ng</span>
                 </a>
               </li>
               <li>
                 <a href="#" className>
                   <i className="p-icon-clock" />
-                  <span>Mon-Fri: 10:00 - 18:00</span>
+                  <span>Mon-Fri: 09:00 - 20:00</span>
                 </a>
               </li>
             </ul>
@@ -88,8 +91,8 @@ const Footer = () => {
             <div className="widget-newsletter">
               <h4 className="widget-title">Subscribe Newsletter</h4>
               <p>
-                Subscribe to the Panda eCommerce Newsletter
-                <br /> updates from your favourite products.
+                Subscribe to the TEF's ordering Newsletter
+                <br /> to receive updates from your favourite meals.
               </p>
               <form action="#" className="form-simple">
                 <input
@@ -100,7 +103,7 @@ const Footer = () => {
                   required
                 />
                 <button className="btn btn-link" type="submit">
-                  sign up
+                  subscribe
                 </button>
               </form>
             </div>
@@ -109,7 +112,7 @@ const Footer = () => {
         {/* End FooterMiddle */}
         <div className="footer-bottom">
           <p className="copyright">
-            Panda eCommerce © 2022. All Rights Reserved
+            Tamuno Exalted Fingers © 2022. All Rights Reserved
           </p>
           <figure>
             <img src={payment} alt="payment" width={159} height={29} />

@@ -9,8 +9,8 @@ const Aside = () => {
 
   useEffect(() => {
     try {
-      const tagData = collection("tags/public");
-      const classesData = collection("classifications/public");
+      const tagData = collection("public/tags");
+      const classesData = collection("public/classifications");
 
       batch([tagData, classesData])
         .then(

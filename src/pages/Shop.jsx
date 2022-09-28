@@ -26,7 +26,7 @@ const Shop = () => {
 
   useEffect(() => {
     try {
-      collection("products/public")
+      collection("public/products")
         .then((res) => {
           setFoods(res.data.data);
         })

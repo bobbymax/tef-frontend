@@ -22,7 +22,7 @@ const PageHeader = ({ shopPage = false, title }) => {
 
   useEffect(() => {
     try {
-      collection("categories/public")
+      collection("public/categories")
         .then((res) => {
           setCategories(res.data.data);
         })
